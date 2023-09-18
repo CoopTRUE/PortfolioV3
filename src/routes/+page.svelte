@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Hero from '$lib/components/Hero.svelte'
+  import Button from '$lib/components/ui/button/button.svelte'
   import { Smile } from 'lucide-svelte'
 </script>
 
@@ -7,8 +9,8 @@
   <meta name="description" content="" />
 </svelte:head>
 
-<main>
-  <h1 class="flex items-center text-green-500">Welcome<Smile /></h1>
+<main class="container">
+  <Hero />
 </main>
 
 <style lang="postcss">
