@@ -9,7 +9,7 @@
   <meta name="description" content="" />
 </svelte:head>
 
-<main class="container">
+<main class="mx-auto w-full max-w-5xl p-8">
   <Hero />
 </main>
 
